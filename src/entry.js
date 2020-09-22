@@ -1,5 +1,5 @@
 // Import vue component
-import component from '@/vue-modal.vue';
+import component from '@/simple-vuejs-modal.vue';
 
 // install function executed by Vue.use()
 const install = function installVueModal(Vue) {
@@ -17,7 +17,7 @@ const install = function installVueModal(Vue) {
     },
     $event: this.event
   }
-  Vue.component('VueModal', component);
+  Vue.component('SimpleVueJsModal', component);
 };
 
 // Create module definition for Vue.use()

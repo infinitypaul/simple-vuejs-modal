@@ -1,6 +1,6 @@
 {
   "name": "simple-vuejs-modal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Flexible Vue Modal",
   "author": "Edward Paul <infinitypaul@live.com>",
   "private": false,
@@ -46,5 +46,17 @@
   },
   "engines": {
     "node": ">=10"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infinitypaul/simple-vuejs-modal.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infinitypaul/simple-vuejs-modal/issues"
+  },
+  "homepage": "https://github.com/infinitypaul/simple-vuejs-modal#readme"
 }

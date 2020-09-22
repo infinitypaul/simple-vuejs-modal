@@ -1,5 +1,5 @@
 'use strict';Object.defineProperty(exports,'__esModule',{value:true});var script = {
-  name: 'VueModal',
+  name: 'SimpleVueJsModal',
   data: function data() {
     return {
       visible: false,
@@ -211,8 +211,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-61d5af97_0", {
-    source: ".app-modal[data-v-61d5af97]{background-color:#141420;position:fixed;width:100%;height:100%;left:0;top:0;z-index:9999}.app-modal-inner[data-v-61d5af97]{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);padding:30px;width:90%;max-width:500px;background-color:#fff;z-index:9999}.modal-enter-active[data-v-61d5af97],.modal-leave-active[data-v-61d5af97]{transition:all .2s}.modal-enter[data-v-61d5af97],.modal-leave-active[data-v-61d5af97]{opacity:0}",
+  inject("data-v-314db746_0", {
+    source: ".app-modal[data-v-314db746]{background-color:#141420;position:fixed;width:100%;height:100%;left:0;top:0;z-index:9999}.app-modal-inner[data-v-314db746]{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);padding:30px;width:90%;max-width:500px;background-color:#fff;z-index:9999}.modal-enter-active[data-v-314db746],.modal-leave-active[data-v-314db746]{transition:all .2s}.modal-enter[data-v-314db746],.modal-leave-active[data-v-314db746]{opacity:0}",
     map: undefined,
     media: undefined
   });
@@ -220,10 +220,10 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-61d5af97";
+var __vue_scope_id__ = "data-v-314db746";
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-61d5af97";
+var __vue_module_identifier__ = "data-v-314db746";
 /* functional template */
 
 var __vue_is_functional_template__ = false;
@@ -248,7 +248,7 @@ var install = function installVueModal(Vue) {
     },
     $event: this.event
   };
-  Vue.component('VueModal', __vue_component__);
+  Vue.component('SimpleVueJsModal', __vue_component__);
 }; // Create module definition for Vue.use()
 
 

@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'VueModal',
+  name: 'SimpleVueJsModal',
   data() {
     return {
      visible :  false,
